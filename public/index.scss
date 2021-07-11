@@ -1,0 +1,172 @@
+body {
+  background-color: #114F2A;
+}
+
+#cont-2.container {
+  max-width: 600px;
+
+  .game-bar {
+    background-color: #9ab881;
+    border: 1px solid #114F2A;
+
+    .input-group-text {
+      background-color: #ffd74d;
+      border-color: #114F2A;
+      color: #114F2A;
+    }
+
+    .form-control {
+      background-color: #e5ab45;
+      border-color: #114F2A;
+      color: #114F2A;
+    }
+
+    .progress {
+      height: calc(1.5em + .75rem + 8px);
+
+      .progress-bar {
+        background-color: #114F2A;
+      }
+    }
+
+    .btn {
+      height: 100%;
+      background-color: #114F2A;
+      color: white;
+
+      &:focus {
+        box-shadow: none;
+      }
+
+      &:hover {
+        background-color: #398558;
+      }
+
+      span {
+        line-height: 1.5;
+      }
+    }
+  }
+
+  .cell {
+    position: relative;
+    border-radius: 0;
+
+    &:focus {
+      box-shadow: none;
+    }
+
+    &-closed {
+      background-color: #398558;
+      border: 1px solid #114F2A;
+
+      &:hover {
+        background-color: #679c67;
+      }
+    }
+
+    &-mined {
+      background-color: crimson;
+      border: 1px solid darkred;
+    }
+
+    &-clean {
+      background-color: #FFF0B5;
+      border: 1px solid #BAAD73;
+    }
+
+    &-danger {
+      background-color: #A8CF59;
+      border: 1px solid #808080;
+      color: #114F2A;
+
+      &.danger-1 {
+        color: #114F2A
+      }
+
+      &.danger-2 {
+        color: #8c5600;
+      }
+
+      &.danger-3 {
+        color: crimson;
+      }
+
+      &.danger-4 {
+        color: red;
+      }
+    }
+
+  }
+
+  .cell:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+  }
+
+  .content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    margin-top: -0.75rem;
+    left: 0
+  }
+
+  .gamefield {
+    position: relative;
+  }
+
+  .resultBack {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #114F2A;
+    opacity: 0.6;
+  }
+
+  .result {
+    & > div {
+      font-size: 3rem;
+      white-space: nowrap;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+
+      .glow {
+        text-shadow: 2px 2px #114F2A,
+        2px 0 10px green,
+        -2px 0 10px green,
+        0 2px 10px green,
+        0 -2px 10px green,
+        0 2px 30px lime,
+        0 -2px 30px lime,
+        2px 0 30px lime,
+        -2px 0 30px lime,
+        0 2px 40px white,
+        0 -2px 40px white,
+        2px 0 40px white,
+        -2px 0 40px white;
+      }
+    }
+
+    .recordName {
+
+      span {
+        line-height: 1.5;
+      }
+    }
+
+    .table {
+      font-size: 1rem;
+      background-color: #9ab881;
+      width: 17.775rem;
+      margin: auto;
+    }
+
+  }
+}

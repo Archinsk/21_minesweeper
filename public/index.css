@@ -1,0 +1,127 @@
+body {
+  background-color: #114F2A;
+}
+
+#cont-2.container {
+  max-width: 600px;
+}
+#cont-2.container .game-bar {
+  background-color: #9ab881;
+  border: 1px solid #114F2A;
+}
+#cont-2.container .game-bar .input-group-text {
+  background-color: #ffd74d;
+  border-color: #114F2A;
+  color: #114F2A;
+}
+#cont-2.container .game-bar .form-control {
+  background-color: #e5ab45;
+  border-color: #114F2A;
+  color: #114F2A;
+}
+#cont-2.container .game-bar .progress {
+  height: calc(1.5em + .75rem + 8px);
+}
+#cont-2.container .game-bar .progress .progress-bar {
+  background-color: #114F2A;
+}
+#cont-2.container .game-bar .btn {
+  height: 100%;
+  background-color: #114F2A;
+  color: white;
+}
+#cont-2.container .game-bar .btn:focus {
+  box-shadow: none;
+}
+#cont-2.container .game-bar .btn:hover {
+  background-color: #398558;
+}
+#cont-2.container .game-bar .btn span {
+  line-height: 1.5;
+}
+#cont-2.container .cell {
+  position: relative;
+  border-radius: 0;
+}
+#cont-2.container .cell:focus {
+  box-shadow: none;
+}
+#cont-2.container .cell-closed {
+  background-color: #398558;
+  border: 1px solid #114F2A;
+}
+#cont-2.container .cell-closed:hover {
+  background-color: #679c67;
+}
+#cont-2.container .cell-mined {
+  background-color: crimson;
+  border: 1px solid darkred;
+}
+#cont-2.container .cell-clean {
+  background-color: #FFF0B5;
+  border: 1px solid #BAAD73;
+}
+#cont-2.container .cell-danger {
+  background-color: #A8CF59;
+  border: 1px solid #808080;
+  color: #114F2A;
+}
+#cont-2.container .cell-danger.danger-1 {
+  color: #114F2A;
+}
+#cont-2.container .cell-danger.danger-2 {
+  color: #8c5600;
+}
+#cont-2.container .cell-danger.danger-3 {
+  color: crimson;
+}
+#cont-2.container .cell-danger.danger-4 {
+  color: red;
+}
+#cont-2.container .cell:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+#cont-2.container .content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 50%;
+  margin-top: -0.75rem;
+  left: 0;
+}
+#cont-2.container .gamefield {
+  position: relative;
+}
+#cont-2.container .resultBack {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #114F2A;
+  opacity: 0.6;
+}
+#cont-2.container .result > div {
+  font-size: 3rem;
+  white-space: nowrap;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#cont-2.container .result > div .glow {
+  text-shadow: 2px 2px #114F2A, 2px 0 10px green, -2px 0 10px green, 0 2px 10px green, 0 -2px 10px green, 0 2px 30px lime, 0 -2px 30px lime, 2px 0 30px lime, -2px 0 30px lime, 0 2px 40px white, 0 -2px 40px white, 2px 0 40px white, -2px 0 40px white;
+}
+#cont-2.container .result .recordName span {
+  line-height: 1.5;
+}
+#cont-2.container .result .table {
+  font-size: 1rem;
+  background-color: #9ab881;
+  width: 17.775rem;
+  margin: auto;
+}
+
+/*# sourceMappingURL=index.css.map */

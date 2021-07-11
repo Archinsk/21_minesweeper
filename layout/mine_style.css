@@ -1,0 +1,76 @@
+#cont-1.container {
+  background-color: lavender;
+  max-width: 600px;
+}
+#cont-1.container .row, #cont-1.container .form-row {
+  border: red 1px solid;
+}
+#cont-1.container .row .col-1, #cont-1.container .row .col-2, #cont-1.container .row .col-3, #cont-1.container .row .col-4, #cont-1.container .row .col-5, #cont-1.container .row .col-6, #cont-1.container .row .col-7, #cont-1.container .row .col-8, #cont-1.container .row .col-9, #cont-1.container .row .col-10, #cont-1.container .row .col-11, #cont-1.container .row .col-12, #cont-1.container .form-row .col-1, #cont-1.container .form-row .col-2, #cont-1.container .form-row .col-3, #cont-1.container .form-row .col-4, #cont-1.container .form-row .col-5, #cont-1.container .form-row .col-6, #cont-1.container .form-row .col-7, #cont-1.container .form-row .col-8, #cont-1.container .form-row .col-9, #cont-1.container .form-row .col-10, #cont-1.container .form-row .col-11, #cont-1.container .form-row .col-12 {
+  border: blue 1px solid;
+}
+#cont-1.container .row .col, #cont-1.container .form-row .col {
+  background-color: antiquewhite;
+  border: blueviolet 1px solid;
+}
+#cont-1.container .cell {
+  position: relative;
+}
+#cont-1.container .cell:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+#cont-1.container .content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 50%;
+  margin-top: -0.75rem;
+  left: 0;
+}
+#cont-1.container .btn-info {
+  height: 100%;
+}
+
+#cont-2.container {
+  background-color: lavender;
+  max-width: 600px;
+}
+#cont-2.container .game-bar {
+  background-color: yellow;
+}
+#cont-2.container .gameField {
+  position: relative;
+}
+#cont-2.container .gameField .cell {
+  position: relative;
+  background-color: antiquewhite;
+  border: blueviolet 1px solid;
+  border-radius: 0;
+}
+#cont-2.container .gameField .cell:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+#cont-2.container .gameField .content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 50%;
+  margin-top: -0.75rem;
+  left: 0;
+}
+#cont-2.container .gameField .btn-info {
+  height: 100%;
+}
+
+.result {
+  font-size: 60px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*# sourceMappingURL=mine_style.css.map */
